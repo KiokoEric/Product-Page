@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body {
+    width: 1100px;
+    margin: auto;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem 0rem;
+}
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header li {
+    color: hsl(219, 9%, 45%);
+    margin-left: 2.5rem;
+    list-style: none;
+}
+li:first-child {
+    margin-left: 4rem;
+}
+.avatar {
+    margin-top: -1rem;
+    margin-left: 3rem;
+}
+.line {
+    width: 1100px;
+    height: 1px;
+    background-color: hsl(220, 14%, 75%,0.3);
+    margin-bottom: 4rem;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6rem;
+    margin-bottom: 10rem;
+}
+article:first-child {
+    margin-left: 3rem;
+}
+figure {
+    margin-bottom: 2rem;
+}
+figure img {
+    border-radius: 15px;
+}
+article:first-child section {
+    display: flex;
+    flex-direction: row;
+}
+article:first-child section img {
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+article:last-child {
+    margin-top: 4rem;
+}
+h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color:hsl(26, 100%, 55%);
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 40px;
+    margin-bottom: 2rem;
+}
+.one p {
+    font-size: 15px;
+    color: hsl(219, 9%, 45%);
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.two {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.8rem;
+}
+.price {
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 2rem;
+}
+.percent {
+    color:hsl(26, 100%, 55%);
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+.strike {
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+}
+.orange {
+    font-size: 30px;
+    font-weight: 700;
+    color:hsl(26, 100%, 55%);
+    margin-right: 2rem;
+}
+.bold {
+    font-weight: 700;
+    margin-top: 0.7rem;
+    margin-right: 3rem;
+}
+button {
+    width: 260px;
+    font-size: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    padding: 1rem 0rem;
+}
+button img {
+    margin-right: 1rem
+}
+
+/* javascript Code */
